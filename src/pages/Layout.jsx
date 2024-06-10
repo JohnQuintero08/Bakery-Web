@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 const LayOut = () => {
   return (
-    <div className=" text-customBlack">
+    <div className=" text-customBlack flex flex-col justify-between h-screen">
       <Header />
       <Outlet />
       <Footer></Footer>
