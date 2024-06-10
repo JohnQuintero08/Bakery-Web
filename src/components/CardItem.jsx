@@ -17,9 +17,9 @@ const CardItem = ({
         className={`object-cover w-full h-60 ${classImage}`}
       />
       <div className={`flex items-center justify-center p-4 ${classText}`}>
-        <div className="flex flex-col items-center justify-center border-4 p-4 h-full">
-          <h4 className="font-title font-bold text-xl">{title}</h4>
-          <p className="text-center">{content}</p>
+        <div className="flex flex-col items-center justify-center border-4 p-4 h-full text-center">
+          <h4 className="font-title font-bold text-2xl">{title}</h4>
+          <p className="text-center text-sm">{content}</p>
         </div>
       </div>
     </div>

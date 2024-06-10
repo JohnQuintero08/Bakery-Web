@@ -44,8 +44,8 @@ const Menu = () => {
         ></CardItem>
         <CardItem
           imagen={gelatina2}
-          alt="Gelatinas en 3D"
-          title="Gelatinas en 3D"
+          alt="Jelly Cake"
+          title="Jelly Cake"
           content="Una opción distinta para tus celebraciones."
         ></CardItem>
       </section>

@@ -27,7 +27,12 @@ const Header = () => {
         </button>
         <NavBar className="hidden sm:flex" />
       </div>
-      {isOpen && <NavBar className="flex flex-col sm:hidden border-t-2" />}
+      {isOpen && (
+        <NavBar
+          className="flex flex-col sm:hidden border-t-2"
+          toogle={toogle}
+        />
+      )}
     </header>
   );
 };

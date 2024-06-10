@@ -9,7 +9,7 @@ const Contact = () => {
         Envianos un mensaje al 302 315 0409 y nosotros nos pondremos en contacto
         contigo.
       </p>
-      <p>O contactanos por WhatsApp:</p>
+      <p>O escribenos directamente por WhatsApp:</p>
       <a
         className="flex items-center justify-center border-4 py-4 w-32 text-lg font-bold"
         href="https://api.whatsapp.com/send?phone=573023150409"
