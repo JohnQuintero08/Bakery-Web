@@ -1,9 +1,11 @@
 import React from "react";
+import logo from "/logo_1.png";
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col items-center text-center gap-8 p-8 mb-8">
+    <div className="flex flex-col items-center text-center gap-8 p-8 mb-8 sm:w-3/4 lg:w-[1024px]">
       <h2 className="font-title text-3xl">Sobre Nosotros</h2>
+
       <p>
         Bienvenidos a De Ututuy, la joya dulce de Zipaquirá. Nuestra historia
         comenzó en 2020, cuando nuestra fundadora, una dedicada profesora,
@@ -24,6 +26,12 @@ const AboutUs = () => {
         Gracias por permitirnos ser parte de sus vidas y endulzar sus días. Ven
         y descubre el sabor de la tradición reinventada.
       </p>
+
+      <img
+        src={logo}
+        alt="Imagen de un trozo de torta con el logo de Ututuy "
+        className="w-72 h-72"
+      />
     </div>
   );
 };

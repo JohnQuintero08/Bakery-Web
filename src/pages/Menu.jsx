@@ -8,11 +8,11 @@ import gelatina2 from "/gelatina_2.jpeg";
 
 const Menu = () => {
   return (
-    <div className="flex flex-col items-center py-8">
+    <div className="flex flex-col items-center py-8 sm:w-3/4 lg:w-[1024px] ">
       <h2 className="font-title text-5xl">Menu</h2>
       <span className="border-b-2 w-1/2 my-4"></span>
       <p className="my-4">Prueba todas nuestras diferentes opciones.</p>
-      <section className="flex flex-wrap px-8 my-8 gap-4">
+      <section className="flex flex-wrap px-8 my-8 gap-4 sm:px-0">
         <CardItem
           imagen={torta1}
           alt="torta"

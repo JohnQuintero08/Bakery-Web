@@ -10,8 +10,8 @@ const Header = () => {
     setIsOpen((prev) => !prev);
   }
   return (
-    <header className="py-4 px-8">
-      <div className=" flex justify-between items-center mb-4">
+    <header className="py-4 px-8 sm:px-0 sm:w-3/4 lg:w-[1024px] mx-auto w-full ">
+      <div className=" flex items-center  justify-between mb-4 ">
         <Link to="/">
           <img
             src={logo}

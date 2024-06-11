@@ -4,16 +4,23 @@ import { NavLink } from "react-router-dom";
 const NavBar = ({ className, toogle }) => {
   return (
     <nav
-      className={`border-b-2 items-center gap-4 py-4 sm:inline-block ${className}`}
+      className={`ml-auto border-b-2 items-center gap-8 py-4 sm:inline-block ${className}`}
     >
       <button onClick={toogle}>
-        <NavLink className={({ isActive }) => isActive && "underline"} to="/">
+        <NavLink
+          className={({ isActive }) =>
+            isActive && "underline underline-offset-2"
+          }
+          to="/"
+        >
           HOME
         </NavLink>
       </button>
       <button onClick={toogle}>
         <NavLink
-          className={({ isActive }) => isActive && "underline"}
+          className={({ isActive }) =>
+            isActive && "underline underline-offset-2"
+          }
           to="menu"
         >
           MENU
@@ -21,7 +28,9 @@ const NavBar = ({ className, toogle }) => {
       </button>
       <button onClick={toogle}>
         <NavLink
-          className={({ isActive }) => isActive && "underline"}
+          className={({ isActive }) =>
+            isActive && "underline underline-offset-2"
+          }
           to="aboutUs"
         >
           SOBRE NOSOTROS
@@ -29,7 +38,9 @@ const NavBar = ({ className, toogle }) => {
       </button>
       <button onClick={toogle}>
         <NavLink
-          className={({ isActive }) => isActive && "underline"}
+          className={({ isActive }) =>
+            isActive && "underline underline-offset-2"
+          }
           to="contact"
         >
           CONTACTO

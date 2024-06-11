@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col items-center text-center gap-8 p-8">
+    <div className="flex flex-col items-center text-center gap-8 p-8 h-full sm:w-3/4 lg:w-[1024px]">
       <h2 className="font-title text-3xl">Contactanos</h2>
       <p>Nos encuentras en Zipaquirá, Cundinamarca.</p>
       <p>
