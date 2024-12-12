@@ -1,8 +1,7 @@
-# React + Vite
+# Página web pastelería de Ututuy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modelo inicial de una página web para una pastelería en Colombia. Para este modelo se empleó React como framework y CSS para estilizar. Se emplea React Router para conexión entre páginas.
 
-Currently, two official plugins are available:
+Puedes visitar el primer layout del sitio aca... https://deututuypasteleria.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
